@@ -58,8 +58,8 @@ This module contains the following files:
 To simulate a single antigen extraction event, run the following code:
 
 ```python
-import brownian.utilities as utl
-import brownian.system as system
+import script.brownian.utilities as utl
+import script.brownian.system as system
 ## prepare the parameter dict
 prm = utilities.getDefaultPrm()
 ## create a System object
@@ -90,7 +90,7 @@ print(">> average complex lifetime: ", sys.tend, "us")
 To scan parameters:
 
 ```python
-import brownian.scan_parameter as scan_parameter
+import script.brownian.scan_parameter as scan_parameter
 #### create a Scan_prm object
 agent = scan_parameter.Scan_prm(sto = sys)
 agent.run("f0", [0, 5, 10, 15, 20, 25, 30]) ### will run simulations for f0=0, 5, 10, ..., 30
@@ -156,8 +156,8 @@ plt.show()
 To run a single GC simulation
 
 ```python
-import evolution.model.GC as gc
-import evolution.model.prm as prm
+import script.evolution.model.GC as gc
+import script.evolution.model.prm as prm
 
 prm0 = prm.prm_list.copy()
 ## with Ab feedback
