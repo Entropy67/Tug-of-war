@@ -4,7 +4,7 @@
 
 Tug-of-war is a python project to simulate the dynamics of antigen extraction process and its influence on GC evolution. The paper is now available on Arxiv:  Hongda Jiang and Shenshen Wang, [**Molecular tug of war reveals adaptive potential of an immune cell repertoire**](https://arxiv.org/abs/2209.13994).
 
-![tug-of-war image](/tug-of-war-demo.png)
+![new tug-of-war image](/tug-of-war-demo.png)
 
 Basic examples are given in the jupyter notebook.
 
